@@ -91,7 +91,9 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
+.carousel-item {
+	width: 100%;
+}
 #gallery {
 	min-height: 100vh;
 }
@@ -262,7 +264,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me, #about-me p {
 		width: 100%;
 	}
 }
