@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 
 #about {
@@ -51,7 +52,7 @@ body {
 }
 
 .picture.left::before {
-	content: ' ';
+	content: '';
 	background-color: #E5975F;
 	width: 374px;
 	height: 329px;
@@ -69,8 +70,9 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
+
 #about-me {
 	flex: 2
 }
