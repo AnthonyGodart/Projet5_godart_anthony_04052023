@@ -191,7 +191,7 @@
           index = i ;
         }
       });
-      next = imagesCollection[index +1];
+      next = imagesCollection[index + 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     createLightBox(gallery, lightboxId, navigation) {
