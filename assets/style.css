@@ -63,7 +63,7 @@ header, body, footer {
 	max-height: 365px;
 }
 .picture img {
-	width: 100%;
+	max-width: 100%;
 	min-height: 100%;
 }
 #about-me {
