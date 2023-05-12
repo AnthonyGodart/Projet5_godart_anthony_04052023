@@ -19,5 +19,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
     // Ajoutez le script à l'en-tête de la page
-    document.getElementsByTagName("head")[0].appendChild(script);
+    document.head.appendChild(script);
   });
