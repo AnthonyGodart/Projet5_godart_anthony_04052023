@@ -127,6 +127,9 @@ header, body, footer {
 	object-fit: cover;
 	padding: .5em;
 }
+.img-caption{
+	display: none;
+}
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
