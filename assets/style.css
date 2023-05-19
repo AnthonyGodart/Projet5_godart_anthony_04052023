@@ -2,9 +2,6 @@ header, body, footer {
 	max-width: 1920px;
 	margin: auto;
 }
-figcaption{
-	display: none;
-}
 * {
 	font-family: 'Inter', 'Spectral', 'sans-serif';
 	font-style: normal;
