@@ -14,7 +14,8 @@
       $.fn.mauGallery.listeners(options);
 
       $(this)
-        .children(".gallery-item")
+        .children("figure")
+        .children("img.gallery-item")
         .each(function(index) {
           $.fn.mauGallery.methods.responsiveImageItem($(this));
           $.fn.mauGallery.methods.moveItemInRowWrapper($(this));
@@ -138,10 +139,11 @@
         $(".item-column").each(function() {
           if (
             $(this)
+              .children('figure')
               .children("img")
               .data("gallery-tag") === activeTag
           ) {
-            imagesCollection.push($(this).children("img"));
+            imagesCollection.push($(this).children('figure').children("img"));
           }
         });
       }
@@ -181,10 +183,11 @@
         $(".item-column").each(function() {
           if (
             $(this)
+              .children("figure")
               .children("img")
               .data("gallery-tag") === activeTag
           ) {
-            imagesCollection.push($(this).children("img"));
+            imagesCollection.push($(this).children('figure').children("img"));
           }
         });
       }
