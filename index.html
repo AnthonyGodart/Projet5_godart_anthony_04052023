@@ -53,7 +53,7 @@
 <header>
 <div class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -61,10 +61,9 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" aria-label="Lien vers Instagram" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="Logo Instagram"></a></li>
 		</ul>
-	</div>
+	</nav>
 </div>
-<div id="header">
-
+<section id="header">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,10 +90,10 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
+</section>
 </header>
 <main>
-<div id="about">
+<article id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" alt="Photo de l'artiste">
 	</div>
@@ -104,38 +103,45 @@
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
+</article>
 <section id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<figure>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Photo de l'artiste Aaron Paul en concert">
+			<figure class="gallery-item" data-gallery-tag="Concert">
+				<img class="lightboxImage" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Photo de l'artiste Aaron Paul en concert">
 				<figcaption>Photo de l'artiste Aaron Paul en concert</figcaption>
 			</figure>
-			<figure>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Portait professionnel de Ali Morshedlou">
+			<figure class="gallery-item" data-gallery-tag="Entreprises">
+				<img class="lightboxImage" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Portait professionnel de Ali Morshedlou">
 				<figcaption>Portait professionnel de Ali Morshedlou</figcaption>
 			</figure>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Portrait professionnel de Jason Goodman">
+			<figure class="gallery-item" data-gallery-tag="Entreprises">
+				<img class="lightboxImage" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Portrait professionnel de Jason Goodman">
 				<figcaption>Portrait professionnel de Jason Goodman</figcaption>
 			</figure>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Photo de mariage de Hannah Busing">
+			<figure class="gallery-item" data-gallery-tag="Mariages">
+				<img class="lightboxImage" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Photo de mariage de Hannah Busing">
 				<figcaption>Photo de mariage de Hannah Busing</figcaption>
 			</figure>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Portait de Ade Tunji">
+			<figure class="gallery-item" data-gallery-tag="Portrait">
+				<img class="lightboxImage" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Portait de Ade Tunji">
 				<figcaption>Portait de Ade Tunji</figcaption>
 			</figure>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Photo de mariage de Jakob Owens">
+			<figure class="gallery-item" data-gallery-tag="Mariages">
+				<img class="lightboxImage" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Photo de mariage de Jakob Owens">
 				<figcaption>Photo de mariage de Jakob Owens</figcaption>
 			</figure>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Portrait de Nino Van Prattenburg">
+			<figure class="gallery-item" data-gallery-tag="Portrait">
+				<img class="lightboxImage" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Portrait de Nino Van Prattenburg">
 				<figcaption>Portrait de Nino Van Prattenburg</figcaption>
 			</figure>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Photo de Austin Neill en concert">
+			<figure class="gallery-item" data-gallery-tag="Concert">
+				<img class="lightboxImage" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Photo de Austin Neill en concert">
 				<figcaption>Photo de Austin Neill en concert</figcaption>
 			</figure>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Portrait professionnel de Matheus Campos Felipe">
+			<figure class="gallery-item" data-gallery-tag="Entreprises">
+				<img class="lightboxImage" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Portrait professionnel de Matheus Campos Felipe">
 				<figcaption>Portrait professionnel de Matheus Campos Felipe</figcaption>
 			</figure>
 		</div>
